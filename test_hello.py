@@ -18,7 +18,7 @@ def test_runnable():
     """Runs using python3"""
 
     out = getoutput(f'python {prg}')
-    assert out.strip() == 'Hello Tyler'
+    assert out.strip() == 'Hello, World'
 
 
 # --------------------------------------------------
